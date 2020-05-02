@@ -133,7 +133,7 @@ options.forEach((option) => {
       quizOption4.classList.remove("correct");
       selectedOption.parentElement.classList.remove(classToApply);
       getNewQuestion();
-    }, 1200);
+    }, 650);
   });
 });
 
