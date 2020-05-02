@@ -6,7 +6,6 @@
   border: 0.1rem solid rgba(150, 106, 255, 0.5);
   background-color: white;
   border-radius: 0.5rem;
-
 }
 
 .options-container:hover {
@@ -16,19 +15,13 @@
   transition: transform 150ms;
 }
 
-.options-prefix {
-  padding: 1.5rem 2.5rem;
-  background-color: #a764ff;
-  color: white;
-}
-
 .options-text {
   padding: 1.5rem;
   width: 100%;
 }
 
 .correct {
-  background-color: #8fdba1 ;
+  background-color: #8fdba1;
   color: white;
 }
 
@@ -37,7 +30,7 @@
 }
 
 .incorrect {
-  background-color: #c55e68 ;
+  background-color: #c55e68;
   color: white;
 }
 
@@ -47,11 +40,11 @@
 
 #next-btn {
   margin-top: 3rem;
-  padding: .5rem;
+  padding: 0.5rem;
   background-color: #a764ff;
   width: 14rem;
   margin: 2rem auto;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 #next-btn h3 {
@@ -69,24 +62,24 @@
 
 /* Head of Display */
 
-#hud {
+#hod {
   display: flex;
   justify-content: space-between;
 }
 
-.hud-prefix {
+.hd-prefix {
   text-align: center;
   font-size: 2rem;
 }
 
-.hud-main-text {
+.hod-main-text {
   font-size: 3rem;
   text-align: center;
   margin: 0;
 }
 
-#hud-item {
-  border: .1rem solid #a764ff;
+#hod-item {
+  border: 0.1rem solid #a764ff;
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 0.5rem;

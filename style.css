@@ -1,17 +1,20 @@
 :root {
   background-color: #ebebeb;
-  font-size: 55% ;
+  font-size: 55%;
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   color: #444;
-} 
+}
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
   margin-bottom: 1rem;
 }
 
@@ -33,7 +36,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2.8rem;
+  font-size: 1.7rem;
   font-weight: 500;
 }
 

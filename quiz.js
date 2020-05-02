@@ -1,3 +1,7 @@
+/***************************************************
+||||||||||||||||||||GHOST CODER ||||||||||||||||||||
+****************************************************/
+
 const question = document.getElementById("question");
 const nextButton = document.getElementById("next-btn");
 const questionCounterText = document.getElementById("questionCounter");
@@ -26,7 +30,7 @@ let questions = [
   {
     question: `The default value of the "position" attribute is _________`,
     option1: "fixed",
-    option2: "relative",
+    option2: "static",
     option3: "inherit",
     option4: "absolute",
     answer: 2,
@@ -128,7 +132,8 @@ options.forEach((option) => {
       quizOption3.classList.remove("correct");
       quizOption4.classList.remove("correct");
       selectedOption.parentElement.classList.remove(classToApply);
-    }, 750);
+      getNewQuestion();
+    }, 1200);
   });
 });
 
